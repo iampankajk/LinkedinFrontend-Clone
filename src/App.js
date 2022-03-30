@@ -1,3 +1,6 @@
+import Logo from "./Components/Global/Logo";
+import Navbar from "./Components/Navbar/Navbar";
+
 function App() {
   return (
     <div>

@@ -1,7 +1,10 @@
-function App() {
+import Post from "./components/Posts/Post";
+
+
+function App(props) {
   return (
     <div>
-      <h2>Let's get started!</h2>
+     <Post></Post>
     </div>
   );
 }

@@ -1,12 +1,16 @@
-import Post from "./components/Posts/Post";
+
+import Logo from "./Components/Global/Logo";
+import Search from "./Components/Global/SearchComponent";
+import Navbar from "./Components/Navbar/Navbar";
 
 
-function App(props) {
+
+function App() {
   return (
-    <div>
-     <Post></Post>
-    </div>
-  );
+    <div className="navbar--">
+      <Navbar />
+
+</div>)
 }
 
 export default App;

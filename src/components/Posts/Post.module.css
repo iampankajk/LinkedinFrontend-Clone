@@ -1,3 +1,6 @@
-.header{
-    display: flex;
+.feed_shared{
+    flex-wrap: nowrap;
+    padding: 12px 16px 0;
+    margin-bottom: 8px;
+    align-items: center;
 }

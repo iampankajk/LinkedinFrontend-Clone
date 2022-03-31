@@ -6,15 +6,20 @@ const Post = (props)=>{
     const imgUrl = "https://avatars.githubusercontent.com/u/15192824?v=4"
     return(
         <Card>
-            <div className={classes.header}>
-                <ProfileIcon url={imgUrl}>{props.children}</ProfileIcon>
-                <div>
-                    <span>
-                        <span>Pankaj Kumar</span>
-                        <span>2nd+</span>
-                    </span>
-                </div>
-            </div>
+           <div className={classes.feed_shared}>
+               <div>
+                   <ProfileIcon url={imgUrl}>{props.children}</ProfileIcon>
+               </div>
+               <div>
+                   <span>
+                       <span></span>
+                       <span></span>
+                   </span>
+                   <span></span>
+                   <span></span>
+               </div>
+
+           </div>
         
       </Card>
     )

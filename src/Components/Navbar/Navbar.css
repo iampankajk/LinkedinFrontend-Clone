@@ -1,0 +1,33 @@
+.navbar-- {
+    box-sizing: border-box;
+    padding: 2px;
+    min-width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.navbar--left{
+    display: flex;
+    justify-content: center;
+ 
+}
+.navbar--right{
+    width: 50%;
+    display: flex;
+   justify-content: space-between;
+
+    
+    
+}
+.material-icons{
+  margin: auto;
+}
+
+.icons{
+    color: #00000099;
+    
+}
+.icons:hover{
+    color: black;
+}

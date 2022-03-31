@@ -1,0 +1,10 @@
+.grid--hori{
+    display: flex ;
+}
+.box {
+   background-color: black;
+    width: 5px;
+    height: 5px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}

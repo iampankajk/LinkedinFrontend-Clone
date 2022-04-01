@@ -14,53 +14,67 @@ function Navbar() {
     return (
         <div className="navbar--">
           <div className='navbar--left'>
-        <Logo />
+            <Logo />
         <Search /> 
         </div>
 
         <div className='navbar--right'>
       <div className='home icons'>
+        <div>
         <Home  className='material-icons'/>
-      <div>Home</div>
+        </div>
+      <div className='icon-text'>Home</div>
 
         </div>
         <div className='group icons' >
+          <div>
         <Group className='material-icons'/>
-        <div>My Network</div>
+        </div>
+        <div className='icon-text'>My Network</div>
         </div>
     
         
         <div className='work icons'>
+          <div>
         <Work className='material-icons'/>
-        <div>Jobs</div>
+        </div>
+        <div className='icon-text'>Jobs</div>
         </div>
         
         <div className='message icons'>
+          <div>
         <Message className='material-icons'/>
-        <div>Message</div>
+        </div>
+        <div className='icon-text'>Message</div>
         </div>
 
        <div className='notification icons'>
+         <div>
         <Notifications className='material-icons'/>
-        <div>Notifications</div>
+        </div>
+        <div className='icon-text'>Notifications</div>
         </div>
       
     <div className='profile icons'>
-        <div>
+        <div >
          <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFyGbbhMwdx8g/profile-displayphoto-shrink_200_200/0/1638850539412?e=1654128000&v=beta&t=v_2we1aS5QPTgxeO1SPUPPNYNuv6aliSomTxMR2OOJI" width='20px' height='20px'/>
         </div>
-        <div>Me</div>
+        <div className='icon-text'>Me</div>
         </div>
 
 
         <div className= 'grid icons'>
+          <div>
         <Grid_Navbar className='material-icons'/>
-        <div>Work</div>
+        </div>
+        <div className='icon-text'>Work</div>
         </div>
 
         <div className='post icons'>
+          <div>
         <PostAdd className='material-icons'/>
-        <div>Post a Job</div>
+        </div>
+        <div className='icon-text'>Post a Job</div>
         </div>
       </div>
       </div>

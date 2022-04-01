@@ -1,33 +1,65 @@
 .navbar-- {
     box-sizing: border-box;
-    padding: 2px;
+    height: 53px;
+    padding: 5px;
     min-width: 80%;
     display: flex;
     margin: auto;
-    justify-content: space-between;
+  justify-content: space-between;
     font-size: 12px;
+    border-bottom: 1px ;
 }
 .navbar--left{
     display: flex;
     justify-content: center;
- 
 }
 .navbar--right{
     width: 50%;
     display: flex;
-   justify-content: space-between;
+  
+   align-items: center;
 
     
+    
+}
+
+.navbar--right{
+    display: flex;
     
 }
 .material-icons{
-  margin: auto;
+  
 }
 
+.profile{
+    padding-right: 20px;
+    border-right: 1px solid grey;
+   
+}
+.profile img{
+    margin-top: 3px;
+    border-radius: 50%;
+}
 .icons{
+    padding-left: 20px;
     color: #00000099;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   cursor: pointer;
+
     
+}
+.icons>div:nth-child(2){
+    margin-top: 0;
 }
 .icons:hover{
     color: black;
+}
+
+.material-icons{
+    margin-bottom: 0;
+}
+.icon-text{
+    margin-top: -4px;
 }
